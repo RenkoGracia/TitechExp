@@ -76,7 +76,7 @@ for j in range (24):
     if 0.81>t>limit:
      end.draw()
     win.flip()
- #stimuli loop end
+  #stimuli loop end
  file.write('\n') #new line for next std degree
 win.close()
 core.quit()
