@@ -72,7 +72,7 @@ for j in range (24):
     if 0<t<limit:
      polygon.pos = (list[i][0]*t*math.cos(r0)-(list[i][1]*t-h*t**2)*math.sin(r0)-list[i][0]*list[i][1]*math.cos(r0)/g+150*math.sin(r0),
      list[i][0]*t*math.sin(r0)+(list[i][1]*t-h*t**2)*math.cos(r0)-list[i][0]*list[i][1]*math.sin(r0)/g-150*math.cos(r0))
-     #for x coordinates, erase offset to make sure vertex on the radius
+     #for x coordinates, erase offset to make sure vertex on the diameter
      #for y coordinates, bound it within the border
      #then apply rotation matrix to coordinates, this will split above two components into both x and y coordinates
      polygon.draw()
